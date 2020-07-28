@@ -1,0 +1,24 @@
+#app4 {
+}
+@keyframes change {
+  0% {
+    background: #ffffff;
+  }
+  50% {
+    background: aquamarine;
+  }
+  100% {
+    background: pink;
+  }
+}
+
+#app4 .circle {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  border: gainsboro 2px solid;
+}
+
+#app4 .circle.active {
+  animation: change 2s infinite alternate linear;
+}
